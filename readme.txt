@@ -3,8 +3,8 @@ Contributors: fuzzguard
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=G8SPGAVH8RTBU
 tags: framework, library, lib, javascript
 Requires at least: 3.8
-Tested up to: 4.7
-Stable tag: 1.2.3
+Tested up to: 4.7.3
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -83,6 +83,12 @@ Each of the scripts have dependancies.  They are all queued as dependancies in t
 == Screenshots ==
 
 == Changelog ==
+
+= 1.3 =
+* Remove getPluginURL function and replaced all references to it with plugins_url() WP Core function
+* Updated 'ractive.min.js' to v0.8.1
+* Updated 'ractive-taps.min.js' to v0.3.1
+* Updated 'hammer.min.js' to v2.0.8
 
 = 1.2.3 =
 * Tested with version 4.7 of Wordpress
